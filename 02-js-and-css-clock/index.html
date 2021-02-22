@@ -24,16 +24,20 @@
     const now = new Date();
 
     const seconds = now.getSeconds();
-    const secondsDegrees = ((seconds / 60) * 360) + 90;
+    const secondsDegrees = getDegree(seconds);
     secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
 
     const minutes = now.getMinutes();
-    const minutesDegrees = ((minutes / 60) * 360) + 90;
+    const minutesDegrees = getDegree(minutes);
     minHand.style.transform = `rotate(${minutesDegrees}deg)`;
 
     const hours = now.getHours();
-    const hoursDegrees = ((hours / 60) * 360) + 90;
+    const hoursDegrees = getDegree(hours);
     hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
+  }
+
+  function getDegree(val) {
+    return ((val / 60) * 360) + 90;
   }
 
   setInterval(setDate, 1000);
