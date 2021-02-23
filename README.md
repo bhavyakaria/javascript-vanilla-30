@@ -5,5 +5,5 @@ Contains 30 awesome JS projects created using vanilla JS.
 |    :---:          |     :---:   |
 | Drum Kit          | [Link](https://github.com/bhavyakaria/javascript-vanilla-30/tree/main/01-javascript-drum-kit) |
 | JS and CSS Clock  | [Link](https://github.com/bhavyakaria/javascript-vanilla-30/tree/main/02-js-and-css-clock)    |
-| CSS Variables & JS  | [Link]()    |
+| CSS Variables & JS  | [Link](https://github.com/bhavyakaria/javascript-vanilla-30/tree/main/03-css-variables)    |
 
